@@ -5,7 +5,7 @@ env/
 venv/
 ENV/
 .venv/
-envATS/
+envCV/
 
 # Archivos de entorno
 .env
