@@ -1,0 +1,61 @@
+# Archivos y directorios típicos a ignorar
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+envATS/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Archivos y carpetas de caché
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.whl
+*.egg
+*.egg-info
+*.eggs
+
+# Archivos temporales
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# Archivos de documentos
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# Bases de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos generados
+dist/
+build/
+*.spec
+
+# Archivos de empaquetado
+*.tar.gz
+*.zip
+
+# Archivos de logs
+logs/
+*.log
+ 
