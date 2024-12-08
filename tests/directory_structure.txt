@@ -1,20 +1,36 @@
 ATS-Com-CV-Gen/
+├── .bumpversion.cfg
 ├── .env
 ├── .gitignore
 ├── README.md
+├── requirements.txt
 ├── .git/
+├── .vscode/
+│       └── settings.json
 ├── app/
+│       └── version.py
 │   ├── config/
-│   │           └── __init__.py
+│   │           ├── __init__.py
+│   │           └── config.py
+│   │       └── __pycache__/
 │   ├── database/
-│   │           └── __init__.py
+│   │           ├── __init__.py
+│   │           └── database.py
 │   ├── exports/
-│   │           └── __init__.py
+│   │           ├── __init__.py
+│   │           └── exports.py
 │   ├── models/
-│   │           └── __init__.py
+│   │           ├── __init__.py
+│   │           └── models.py
 │   ├── services/
+│   │           ├── __init__.py
+│   │           └── services.py
+│   ├── src/
 │   │           └── __init__.py
-│   └── src/
-│   │           └── __init__.py
+│   └── utils/
+│   │           └── logging_config.py
+├── data/
 ├── envCV/
+├── exports/
+├── templates/
 └── tests/
