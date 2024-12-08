@@ -9,6 +9,7 @@ ATS-Com-CV-Gen/
 │       └── settings.json
 ├── app/
 │       └── version.py
+│   ├── __pycache__/
 │   ├── config/
 │   │           ├── __init__.py
 │   │           └── config.py
@@ -29,8 +30,11 @@ ATS-Com-CV-Gen/
 │   │           └── __init__.py
 │   └── utils/
 │   │           └── logging_config.py
+│   │       └── __pycache__/
 ├── data/
 ├── envCV/
 ├── exports/
+├── logs/
+│       └── unico.log
 ├── templates/
 └── tests/
