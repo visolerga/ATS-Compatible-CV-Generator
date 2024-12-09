@@ -25,6 +25,7 @@ ATS-Com-CV-Gen/
 │   │           ├── __init__.py
 │   │           ├── base_model.py
 │   │           ├── course_model.py
+│   │           ├── cv_model.py
 │   │           ├── education_model.py
 │   │           ├── job_model.py
 │   │           ├── project_model.py
@@ -37,6 +38,7 @@ ATS-Com-CV-Gen/
 │   │           ├── __init__.py
 │   │           ├── contact_service.py
 │   │           ├── course_service.py
+│   │           ├── cv_service.py
 │   │           ├── education_service.py
 │   │           ├── job_service.py
 │   │           ├── project_service.py
@@ -45,6 +47,7 @@ ATS-Com-CV-Gen/
 │   │           ├── social_link_service.py
 │   │           ├── template_service.py
 │   │           └── user_service.py
+│   │       └── __pycache__/
 │   ├── src/
 │   │           └── __init__.py
 │   └── utils/
@@ -56,4 +59,5 @@ ATS-Com-CV-Gen/
 ├── logs/
 │       └── unico.log
 ├── templates/
+│       └── cv_template.html
 └── tests/

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 20px;
+            color: black;
+            background-color: white;
+        }
+        h1 {
+            font-family: 'Georgia', serif;
+        }
+        h2 {
+            font-family: 'Georgia', serif;
+        }
+        p {
+            margin: 0;
+            padding: 5px 0;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Curriculum Vitae</h1>
+    <h2>Información Personal</h2>
+    <p>{{ personal_info }}</p>
+    
+    <h2>Resumen Profesional</h2>
+    <p>{{ professional_summary }}</p>
+    
+    <h2>Experiencia Laboral</h2>
+    <p>{{ work_experience }}</p>
+    
+    <h2>Educación</h2>
+    <p>{{ education }}</p>
+    
+    <h2>Habilidades</h2>
+    <p>{{ skills }}</p>
+    
+    <h2>Certificaciones</h2>
+    <p>{{ certifications }}</p>
+    
+    <h2>Proyectos</h2>
+    <p>{{ projects }}</p>
+    
+    {% if references %}
+    <h2>Referencias</h2>
+    <p>{{ references }}</p>
+    {% endif %}
+</body>
+</html>

@@ -1,5 +1,6 @@
 import os
 
+
 def filter_directory_structure(root_dir, excluded_dirs):
     structure = []
     included_dirs = set()  # Set to track included directories
