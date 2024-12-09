@@ -1,2 +1,2 @@
 # Versionado Semántico: MAJOR.MINOR.PATCH
-VERSION = "1.0.1"
+VERSION = "1.0.3"

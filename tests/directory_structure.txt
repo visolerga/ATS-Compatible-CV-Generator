@@ -17,15 +17,34 @@ ATS-Com-CV-Gen/
 │   ├── database/
 │   │           ├── __init__.py
 │   │           └── database.py
+│   │       └── __pycache__/
 │   ├── exports/
 │   │           ├── __init__.py
 │   │           └── exports.py
 │   ├── models/
 │   │           ├── __init__.py
-│   │           └── models.py
+│   │           ├── base_model.py
+│   │           ├── course_model.py
+│   │           ├── education_model.py
+│   │           ├── job_model.py
+│   │           ├── project_model.py
+│   │           ├── skill_model.py
+│   │           ├── social_link_model.py
+│   │           ├── template_model.py
+│   │           └── user_model.py
+│   │       └── __pycache__/
 │   ├── services/
 │   │           ├── __init__.py
-│   │           └── services.py
+│   │           ├── contact_service.py
+│   │           ├── course_service.py
+│   │           ├── education_service.py
+│   │           ├── job_service.py
+│   │           ├── project_service.py
+│   │           ├── services.py
+│   │           ├── skill_service.py
+│   │           ├── social_link_service.py
+│   │           ├── template_service.py
+│   │           └── user_service.py
 │   ├── src/
 │   │           └── __init__.py
 │   └── utils/
