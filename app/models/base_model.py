@@ -1,16 +1,11 @@
-from peewee import ForeignKeyField, CharField, DateField
-from app.models.base_model import BaseModel
-from app.models.user_model import User
-
-class Education(BaseModel):
-    user = ForeignKeyField(User, backref="education", on_delete="CASCADE")
-    degree = CharField()
-    institution = CharField()
-    start_date = DateField()
-    end_date = DateField(null=True)
-from peewee import Model
+# Metaclase para la definicion de los modelos
+# Peewee incluye automaticamente una pk id, pero por si acaso lo incluimos
+# Como las otras clases lo heredan, no hara falta redefinirlo en cada una
+from peewee import Model, AutoField
 from app.database.database import db
 
 class BaseModel(Model):
+    # Clave primaria automática
+    id = AutoField(primary_key=True) 
     class Meta:
         database = db

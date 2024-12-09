@@ -1,9 +1,7 @@
 from peewee import SqliteDatabase
 import os
 
-# Ruta de la base de datos
-# DB_PATH = os.getenv("DB_PATH", "data/app.db")
-# db = SqliteDatabase(DB_PATH, pragmas={"foreign_keys": 1})  # Activar claves foráneas
+# Peewee incluye automaticamente una PK id, pero lo haremos explicitamente
 
 DB_PATH = os.getenv("DB_FULL_PATH")
 db = SqliteDatabase(DB_PATH, pragmas={"foreign_keys": 1})  # Activar claves foráneas
