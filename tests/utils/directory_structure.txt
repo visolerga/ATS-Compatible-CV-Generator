@@ -3,11 +3,13 @@ ATS-Com-CV-Gen/
 ├── .env
 ├── .gitignore
 ├── README.md
+├── cv.pdf
 ├── requirements.txt
 ├── .git/
 ├── .vscode/
 │       └── settings.json
 ├── app/
+│       ├── __init__.py
 │       └── version.py
 │   ├── __pycache__/
 │   ├── config/
@@ -49,11 +51,17 @@ ATS-Com-CV-Gen/
 │   │           └── user_service.py
 │   │       └── __pycache__/
 │   ├── src/
-│   │           └── __init__.py
+│   │           ├── __init__.py
+│   │           ├── hazCV.py
+│   │           └── main.py
+│   │       └── __pycache__/
 │   └── utils/
+│   │           ├── __init__.py
 │   │           └── logging_config.py
 │   │       └── __pycache__/
 ├── data/
+│       ├── __init__.py
+│       └── app.db
 ├── envCV/
 ├── exports/
 ├── logs/

@@ -60,7 +60,7 @@ def filter_directory_structure(root_dir, excluded_dirs):
 
 if __name__ == "__main__":
     # Define the root directory as the parent of the app directory
-    root_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))  # Parent of 'app'
+    root_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))  # Parent of 'app'
     
     # Directories to exclude
     excluded_directories = ['envCV', "__pycache__", ".git", "tests",]  # Directories to ignore   

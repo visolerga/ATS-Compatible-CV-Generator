@@ -41,6 +41,7 @@ exports/
 *.xlsx
 *.ppt
 *.pptx
+*.pdf
 
 # Bases de datos
 *.db
